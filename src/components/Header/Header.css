@@ -1,0 +1,29 @@
+.Header{
+    height: 80px;
+    background-color: burlywood;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 130px;
+    padding-right: 130px;
+}
+
+.Header img{
+    height: 70px;
+    width: 60px;
+    border-radius: 50% 50%;
+    padding: 30px;
+    
+}
+
+.Header a{
+    color:red;
+    text-decoration: none;
+    font-size: 28px;
+    margin-left: 38px;
+    font-weight: 700;
+    
+}
+.Header a:hover{
+    color: blue;
+}
