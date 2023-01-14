@@ -9,9 +9,9 @@
 }
 
 .Header img{
-    height: 70px;
-    width: 60px;
-    border-radius: 50% 50%;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
     padding: 30px;
     
 }
@@ -19,7 +19,7 @@
 .Header a{
     color:red;
     text-decoration: none;
-    font-size: 28px;
+    font-size: 20px;
     margin-left: 38px;
     font-weight: 700;
     

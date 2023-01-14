@@ -8,3 +8,13 @@
     grid-template-columns: repeat(3,1fr);
     gap: 45px;
 }
+.Viw-time{
+    background-color:azure;
+}
+     
+/* @media screen and(max-width:1600px) {
+    .Home-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+} */

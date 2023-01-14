@@ -1,0 +1,15 @@
+.Gymsite{
+    display: flex;
+    margin-top: 20px;
+    padding: 15px;
+    gap: 15px;
+}
+
+.Gymsite img{
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+}
+.line-hight{
+    line-height: 3px;
+}
