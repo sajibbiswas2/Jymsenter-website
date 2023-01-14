@@ -1,0 +1,13 @@
+
+.gym-center{
+    margin-left: 50px;
+    width: 300px;
+    height: 500px;
+    border: 3px solid aquamarine;
+    border-radius: 10px;
+}
+.gym-center img{
+    height: 286px;
+    width: 286px;
+}
+        
