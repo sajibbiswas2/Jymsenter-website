@@ -19,6 +19,7 @@ const Home = () => {
         const newcard = parseFloat(card)+ parseFloat(date)
         setCard(newcard);
         }
+
     return (
         <div className='Home-container'>
             <div className=" Gym-work">
@@ -53,11 +54,11 @@ const Home = () => {
                <div className=''>
                 <h3 className='Add-a-Break'>Add A Break</h3>
                    <div className='brakc-point'>
-                       <p className='Add-a-Break-btn'>20<small>s</small></p>
-                       <p className='Add-a-Break-btn'>30<small>s</small></p>
-                       <p className='Add-a-Break-btn'>40<small>s</small></p>
-                       <p className='Add-a-Break-btn'>50<small>s</small></p>
-                       <p className='Add-a-Break-btn'>59<small>s</small></p>
+                       <p className='btn'>20<small>s</small></p>
+                       <p className='btn'>30<small>s</small></p>
+                       <p className='btn'>40<small>s</small></p>
+                       <p className='btn'>50<small>s</small></p>
+                       <p className='btn'>59<small>s</small></p>
                    </div>
                </div>
           </div>
