@@ -67,7 +67,9 @@ const Home = () => {
                <p  className='data-flow'>Experice time :<small className='card'>{card}.00 scends</small></p>
  
           </div>
-
+            <button>
+                   add to clickt
+            </button>
             </div>
         </div>
     );
