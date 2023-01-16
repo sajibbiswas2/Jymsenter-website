@@ -9,6 +9,7 @@ import logo1 from '../images/logo1.jpg';
 const Home = () => {
     const [fackdata,setFackdata]=useState([]);
     const [card,setCard]= useState(0);
+  
     useEffect(()=>{
        fetch('fackdata.json') 
        .then(res=>res.json())
@@ -19,6 +20,7 @@ const Home = () => {
         const newcard = parseFloat(card)+ parseFloat(date)
         setCard(newcard);
         }
+
 
     return (
         <div className='Home-container'>
@@ -67,7 +69,7 @@ const Home = () => {
                <p  className='data-flow'>Experice time :<small className='card'>{card}.00 scends</small></p>
  
           </div>
-            <button>
+            <button className='btn-class'>
                    add to clickt
             </button>
             </div>

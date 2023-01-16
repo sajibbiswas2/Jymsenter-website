@@ -24,6 +24,17 @@
     padding: 20px;
     border-radius: 10px;
 }
+.btn-class{
+    margin-left: 70px;
+    margin-top: 30px;
+    background-color: blue;
+    color: white;
+    padding: 15px 50px 15px 50px;
+    border-radius: 5px;
+}
+.btn-class:hover{
+    background-color: orange;
+}
      
 @media screen and(max-width:1000px) {
     .Home-container{
