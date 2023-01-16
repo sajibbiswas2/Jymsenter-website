@@ -10,11 +10,23 @@
 }
 .Viw-time{
     background-color:azure;
+    position: sticky;
+    bottom: 0;
+}
+.location{
+    margin-left: 20px;
+    margin-top: -10px;
+}
+.card{
+    background-color: antiquewhite;
+
+    color: blue;
+    padding: 20px;
+    border-radius: 10px;
 }
      
-/* @media screen and(max-width:1600px) {
+@media screen and(max-width:1000px) {
     .Home-container{
         grid-template-columns: repeat(1,1fr);
     }
-    
-} */
+} 

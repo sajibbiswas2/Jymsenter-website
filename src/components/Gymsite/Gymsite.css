@@ -1,8 +1,14 @@
+.cart-Gymsite{
+    position: sticky;
+    top: 0;
+}
+
 .Gymsite{
     display: flex;
     margin-top: 20px;
     padding: 15px;
     gap: 15px;
+    
 }
 
 .Gymsite img{
@@ -60,4 +66,13 @@
 }
 .Add-a-Break-btn:hover{
     background-color: dodgerblue;
+}
+.fontawesomicon{
+    margin-left: 20px;
+    margin-top: -13px;
+    
+}
+
+.data-flow{
+    margin-left: 20px;
 }

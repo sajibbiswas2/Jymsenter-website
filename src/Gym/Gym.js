@@ -11,7 +11,7 @@ const Gym = (props) => {
                 <p className='age-date'>Age:<small>{age}</small></p>
                 <p className='age-date'>Time:<small>{date}s</small></p>
             </div>
-            <button onClick={()=>props.addtohadelclick(props.gym)} className='button'><p>add to list</p></button>
+            <button onClick={()=>props.addtohadelclick(date)} className='button'><p>add to list</p></button>
         </div>
     );
 };
